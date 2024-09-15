@@ -8,17 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		310D57D02C9741A700B95AF1 /* CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310D57CF2C9741A700B95AF1 /* CalculatorApp.swift */; };
-		310D57D22C9741A700B95AF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310D57D12C9741A700B95AF1 /* ContentView.swift */; };
+		310D57D22C9741A700B95AF1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310D57D12C9741A700B95AF1 /* MainView.swift */; };
 		310D57D42C9741A900B95AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 310D57D32C9741A900B95AF1 /* Assets.xcassets */; };
 		310D57D72C9741A900B95AF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 310D57D62C9741A900B95AF1 /* Preview Assets.xcassets */; };
+		310D57E82C97432800B95AF1 /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310D57E72C97432700B95AF1 /* FoundationExtensions.swift */; };
+		310D57EB2C97442000B95AF1 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310D57EA2C97442000B95AF1 /* FontManager.swift */; };
+		310D57ED2C97449600B95AF1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310D57EC2C97449600B95AF1 /* Colors.swift */; };
+		310D57F02C9745AE00B95AF1 /* BungeeLayers-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 310D57EE2C9745AE00B95AF1 /* BungeeLayers-Regular.otf */; };
+		310D57F12C9745AE00B95AF1 /* EurostileExtendedBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 310D57EF2C9745AE00B95AF1 /* EurostileExtendedBlack.ttf */; };
+		310D57F82C97484C00B95AF1 /* DisplayShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310D57F72C97484C00B95AF1 /* DisplayShape.swift */; };
+		310D57FA2C974B8200B95AF1 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310D57F92C974B8200B95AF1 /* DisplayView.swift */; };
+		310D57FC2C974BAF00B95AF1 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310D57FB2C974BAF00B95AF1 /* MainViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		310D57CC2C9741A700B95AF1 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		310D57CF2C9741A700B95AF1 /* CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorApp.swift; sourceTree = "<group>"; };
-		310D57D12C9741A700B95AF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		310D57D12C9741A700B95AF1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		310D57D32C9741A900B95AF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		310D57D62C9741A900B95AF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		310D57E72C97432700B95AF1 /* FoundationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
+		310D57EA2C97442000B95AF1 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		310D57EC2C97449600B95AF1 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		310D57EE2C9745AE00B95AF1 /* BungeeLayers-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BungeeLayers-Regular.otf"; sourceTree = "<group>"; };
+		310D57EF2C9745AE00B95AF1 /* EurostileExtendedBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EurostileExtendedBlack.ttf; sourceTree = "<group>"; };
+		310D57F22C97467300B95AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		310D57F72C97484C00B95AF1 /* DisplayShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayShape.swift; sourceTree = "<group>"; };
+		310D57F92C974B8200B95AF1 /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		310D57FB2C974BAF00B95AF1 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +68,7 @@
 		310D57CE2C9741A700B95AF1 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				310D57CF2C9741A700B95AF1 /* CalculatorApp.swift */,
-				310D57D12C9741A700B95AF1 /* ContentView.swift */,
-				310D57D32C9741A900B95AF1 /* Assets.xcassets */,
-				310D57D52C9741A900B95AF1 /* Preview Content */,
+				310D57DD2C97420300B95AF1 /* iOS */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -65,6 +79,138 @@
 				310D57D62C9741A900B95AF1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		310D57DD2C97420300B95AF1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				310D57E02C97427900B95AF1 /* Code */,
+				310D57DE2C97424000B95AF1 /* Resources */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		310D57DE2C97424000B95AF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				310D57F22C97467300B95AF1 /* Info.plist */,
+				310D57DF2C97425F00B95AF1 /* Fonts */,
+				310D57D32C9741A900B95AF1 /* Assets.xcassets */,
+				310D57D52C9741A900B95AF1 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		310D57DF2C97425F00B95AF1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				310D57EE2C9745AE00B95AF1 /* BungeeLayers-Regular.otf */,
+				310D57EF2C9745AE00B95AF1 /* EurostileExtendedBlack.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		310D57E02C97427900B95AF1 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				310D57E12C97428300B95AF1 /* Common */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		310D57E12C97428300B95AF1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				310D57E22C97429D00B95AF1 /* Controllers */,
+				310D57E62C9742FD00B95AF1 /* Extensions */,
+				310D57E92C9743EB00B95AF1 /* Utils */,
+				310D57E32C9742AC00B95AF1 /* Features */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		310D57E22C97429D00B95AF1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				310D57CF2C9741A700B95AF1 /* CalculatorApp.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		310D57E32C9742AC00B95AF1 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				310D57E42C9742BA00B95AF1 /* Main */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		310D57E42C9742BA00B95AF1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				310D57F32C9747D300B95AF1 /* Models */,
+				310D57F42C9747E000B95AF1 /* ViewModels */,
+				310D57E52C9742E000B95AF1 /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		310D57E52C9742E000B95AF1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				310D57F62C97481B00B95AF1 /* Support Views */,
+				310D57F52C9747FE00B95AF1 /* Support Shapes */,
+				310D57D12C9741A700B95AF1 /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		310D57E62C9742FD00B95AF1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				310D57E72C97432700B95AF1 /* FoundationExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		310D57E92C9743EB00B95AF1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				310D57EA2C97442000B95AF1 /* FontManager.swift */,
+				310D57EC2C97449600B95AF1 /* Colors.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		310D57F32C9747D300B95AF1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		310D57F42C9747E000B95AF1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				310D57FB2C974BAF00B95AF1 /* MainViewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		310D57F52C9747FE00B95AF1 /* Support Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				310D57F72C97484C00B95AF1 /* DisplayShape.swift */,
+			);
+			path = "Support Shapes";
+			sourceTree = "<group>";
+		};
+		310D57F62C97481B00B95AF1 /* Support Views */ = {
+			isa = PBXGroup;
+			children = (
+				310D57F92C974B8200B95AF1 /* DisplayView.swift */,
+			);
+			path = "Support Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +271,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				310D57F12C9745AE00B95AF1 /* EurostileExtendedBlack.ttf in Resources */,
+				310D57F02C9745AE00B95AF1 /* BungeeLayers-Regular.otf in Resources */,
 				310D57D72C9741A900B95AF1 /* Preview Assets.xcassets in Resources */,
 				310D57D42C9741A900B95AF1 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				310D57D22C9741A700B95AF1 /* ContentView.swift in Sources */,
+				310D57F82C97484C00B95AF1 /* DisplayShape.swift in Sources */,
+				310D57FA2C974B8200B95AF1 /* DisplayView.swift in Sources */,
+				310D57D22C9741A700B95AF1 /* MainView.swift in Sources */,
+				310D57ED2C97449600B95AF1 /* Colors.swift in Sources */,
 				310D57D02C9741A700B95AF1 /* CalculatorApp.swift in Sources */,
+				310D57EB2C97442000B95AF1 /* FontManager.swift in Sources */,
+				310D57FC2C974BAF00B95AF1 /* MainViewViewModel.swift in Sources */,
+				310D57E82C97432800B95AF1 /* FoundationExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,9 +425,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Calculator/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Calculator/iOS/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Calculator/iOS/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,9 +454,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Calculator/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Calculator/iOS/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Calculator/iOS/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
