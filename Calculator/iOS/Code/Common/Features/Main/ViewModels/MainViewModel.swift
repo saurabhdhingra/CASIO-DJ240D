@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-class MainViewViewModel : ObservableObject {
+class MainViewModel : ObservableObject {
 
     @Published var result = ""
     @Published var resultReady = false
