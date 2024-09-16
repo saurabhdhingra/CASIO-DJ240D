@@ -1,6 +1,12 @@
+//
+//  DialPad.swift
+//  Calculator
+//
+//  Created by Saurabh Dhingra on 16/09/24.
+//
 import Foundation
 
-enum DialPad: String { 
+enum DialPad: String {
     case zero = "0"
     case one = "1"
     case two = "2"
@@ -31,10 +37,10 @@ enum DialPad: String {
             case .subtract:
                 return "-"
 
-            case .multiply: 
+            case .multiply:
                 return "*"
 
-            default: 
+            default:
                 return ""
         }
     }

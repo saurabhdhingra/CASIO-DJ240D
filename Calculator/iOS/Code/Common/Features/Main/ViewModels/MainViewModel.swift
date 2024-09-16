@@ -14,6 +14,10 @@ class MainViewModel : ObservableObject {
 
     let operations = "+-*/%"
     
+    var currentOperation: Operations = .unknown
+    
+    let maxCalculatorInputLimit = 10
+    
 
     func calculate() { 
 

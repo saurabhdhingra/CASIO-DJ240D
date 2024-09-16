@@ -26,11 +26,11 @@ struct DisplayView: View {
                     Spacer()
                     Rectangle()
                         .foregroundColor(.cyan)
-                        .fram(height: 18)
+                        .frame(height: 18)
                         .opacity(0.25)
                     Rectangle()
                         .foregroundColor(.orange)
-                        .fram(height: 18)
+                        .frame(height: 18)
                         .opacity(0.25)
                 }
             }

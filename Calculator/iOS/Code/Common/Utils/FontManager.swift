@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-enum Typefaceone {
+enum TypefaceOne {
     case regular
     
     func font(size : CGFloat) -> Font {
