@@ -39,6 +39,10 @@ enum DialPad: String {
 
             case .multiply:
                 return "*"
+            
+            case .divide:
+                return "."
+
 
             default:
                 return ""

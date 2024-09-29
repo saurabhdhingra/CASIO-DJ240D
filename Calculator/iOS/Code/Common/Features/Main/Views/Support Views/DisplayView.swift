@@ -66,7 +66,8 @@ struct DisplayView: View {
     }
 }
 
-#Preview {
-    DisplayView(height : 818, colorScheme: .light, duration: 0.3)
-        .padding(12)
+struct DisplayView_Previews: PreviewProvider {
+    static var previews: some View{
+        DisplayView(height: 818, colorScheme: .light, duration: 0.3).padding(12).environmentObject(MainViewModel())
+    }
 }

@@ -13,7 +13,7 @@ enum TypefaceOne {
     func font(size : CGFloat) -> Font {
         switch self {
         case .regular :
-            return .custom("BuneeLayers-Regular", size: size)
+            return .custom("BungeeLayers-Regular", size: size)
         }
     }
 }

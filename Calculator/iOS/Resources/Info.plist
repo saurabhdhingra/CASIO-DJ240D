@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>UIAppFonts</key>
-    <array>
-        <string>EurostileExtendedBlack.ttf</string>
-        <string>BungeeLayers-Regular.otf</string>
-    </array>
+	<array>
+		<string>BungeeLayers-Regular 2.otf</string>
+		<string>EurostileExtendedBlack 2.ttf</string>
+	</array>
 </dict>
 </plist>
