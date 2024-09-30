@@ -21,7 +21,7 @@ enum DialPad: String {
     case plusMinus = "+-"
     case percentage = "%"
     case divide = "/"
-    case multiply = "*"
+    case multiply = "x"
     case subtract = "-"
     case plus = "+"
     case decimal = "."
@@ -38,11 +38,10 @@ enum DialPad: String {
                 return "-"
 
             case .multiply:
-                return "*"
+                return "x"
             
             case .divide:
-                return "."
-
+                return "÷"
 
             default:
                 return ""

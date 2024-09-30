@@ -51,6 +51,7 @@ class MainViewModel : ObservableObject {
 
     func addOperation(operation: Operations){
         
+        
         if(currentOperation != .unknown){
             if operations.contains(result.suffix(1)) {
                 self.result.removeLast()
@@ -86,19 +87,19 @@ class MainViewModel : ObservableObject {
             self.set(operation: .percentage)
             
         case .divide:
-            self.set(operation: .divide)
+            self.addOperation(operation: .divide)
         
         case .multiply:
-            self.set(operation: .multiply)
+            self.addOperation(operation: .multiply)
         
         case .subtract:
-            self.set(operation: .minus)
+            self.addOperation(operation: .minus)
         
         case .plus:
-            self.set(operation: .plus)
+            self.addOperation(operation: .plus)
         
         case .decimal:
-            guard (currentOperation != .unknown || !result.contains(pad.rawValue)) else { return }
+            guard result.count <= maxCalculatorInputLimit, !result.contains(".") else { return }
             self.result += pad.rawValue
         
         case .revert:
