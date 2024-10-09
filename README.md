@@ -1,6 +1,5 @@
 # CASIO-DJ240D
 
-## Introduction
 
 CASIO-DJ240D is a digital calculator simulator mimicking the functionality of the Casio DJ-240D. This project aims to replicate the key features and functionality of the original calculator in a digital environment, allowing users to perform common arithmetic and advanced calculations with ease.
 
