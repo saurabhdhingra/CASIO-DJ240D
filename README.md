@@ -1,25 +1,42 @@
-# CASIO-DJ240D
+# CASIO-DJ240D – iOS Calculator App
+
+A simple yet functional calculator app for **iOS devices**, inspired by the **CASIO DJ-240D** calculator. The app provides a clean UI and mimics the key functionalities of traditional digital calculators.
 
 
-CASIO-DJ240D is a digital calculator simulator mimicking the functionality of the Casio DJ-240D. This project aims to replicate the key features and functionality of the original calculator in a digital environment, allowing users to perform common arithmetic and advanced calculations with ease.
+## Features
 
-This repository includes the complete source code, supporting libraries, and documentation needed to use or contribute to the project.
+- Basic arithmetic operations: addition, subtraction, multiplication, division
+- Percentage calculation
+- Designed for accuracy and ease of use with large buttons and clear display
+- Intuitive layout inspired by physical calculator ergonomics
 
 
-https://github.com/user-attachments/assets/45cb04b7-8bf2-4044-bb29-8b7dc892a331
+## What I Learned
+
+- Built a complete calculator UI using **SwiftUI** and **UIKit interoperability**
+- Practiced state handling and input validation for real-time calculations
+- Focused on replicating physical device behavior in a responsive UI
+- Improved testing and debugging of edge-case inputs and floating point issues
+- Gained experience building apps tailored for iOS design principles
 
 
-<div style="display: flex; align-items: center; justify-content: space-between;">
-  <div>
-    <h3>Key Features</h3>
-    <ul>
-      <li>Basic Arithmetic Operations (Addition, Subtraction, Multiplication, Division)</li>
-      <li>Percentage Calculation</li>
-      <li>Large, Easy-to-Use Interface</li>
-    </ul>
-  </div>
-  <div>
-    <img src="path-to-your-screen-recording.gif" alt="Screen Recording" width="400"/>
-  </div>
-</div>
+## Demo
+![Building a plain old calculator app never hurts if you can make it look good](https://github.com/user-attachments/assets/3876450d-d25f-465b-a904-96e2e7673074)
+
+
+## Tech Stack
+
+- Swift  
+- SwiftUI  
+- UIKit (where needed)  
+- Xcode
+
+
+## Contact
+
+If you're a recruiter or developer looking to connect, feel free to reach out:
+
+- [LinkedIn](https://www.linkedin.com/in/saurabhdhingraa/)
+- [GitHub](https://github.com/saurabhdhingra)
+- ✉[Email](mailto:saurabh20work@gmail.com)
 
